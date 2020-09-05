@@ -3,23 +3,25 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
+	background-color:#F5A9E1;
 }
 
 header{
-	background-color:#FEFFDC;
 	text-align: center;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 h1, h2{
+	font-family: 'Magra', sans-serif;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 /* header styles */
+/* control foward slash*/
 
 header h1{
-	color: black;
+	color: white;
 	font-size: 50px;
 }
 
@@ -36,25 +38,26 @@ main{
 
 main img{
 	max-width: 100%;
+	
 }
 
 h2{
 	font-size: 35px;
-	color: #F97007;
-	margin: 40px 0px 10px;
+	color: white;
+	margin: 0px 0px 10px;
 }
 
 a{
-	color: #F97007;	
+	color:#8258FA;	
 }
 
 a:hover{
 	color: white;
-	background-color: #045FB4;
+	background-color:#8258FA;
 }
 
 footer{
-	background-color:#F7AD00;
+	background-color:#819FF7;
 	text-align: center;
 	color: white;
 	padding: 50px;
@@ -79,3 +82,10 @@ p.caption{
 	margin-top: 0;
 }
 
+a.headerone{
+	color:white;
+}
+
+image.h2image{
+	text-align: center;
+}
